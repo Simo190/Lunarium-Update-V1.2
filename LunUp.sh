@@ -11,6 +11,7 @@ rm /usr/local/bin/lunariumd
 mv lunarium-cli /usr/local/bin/
 mv lunariumd /usr/local/bin/
 lunariumd -daemon 
+cd
 rm lunarium-1.2.0-x86_64-linux-gnu.tar.gz
 sleep 20
 lunarium-cli -version
