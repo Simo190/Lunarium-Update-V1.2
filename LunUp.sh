@@ -16,5 +16,5 @@ rm lunarium-1.2.0-x86_64-linux-gnu.tar.gz
 sleep 20
 lunarium-cli -version
 sleep 20
-watch lunarium-cli masternode status
 rm -r lunarium-1.2.0
+watch lunarium-cli mnsync status
