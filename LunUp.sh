@@ -3,7 +3,6 @@ tar xvzf lunarium-1.2.0-x86_64-linux-gnu.tar.gz
 cd lunarium-1.2.0/bin/
 chmod +x lunarium-cli
 chmod +x lunariumd
-cd bin
 lunarium-cli stop
 sleep 30
 killall -15 lunariumd
